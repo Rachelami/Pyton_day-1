@@ -1,7 +1,7 @@
 def build_pyramid():
     star = '*'
     space = ' '
-    times = 5
+    times = 4
     for i in range(5):
         print(space*times + star)
         star = star + '**'
